@@ -11,6 +11,5 @@ CREATE DATABASE my_db;
 CREATE USER backend_app WITH ENCRYPTED PASSWORD 'enter-strong-password-here';
 
 # Assign user to have all permissions over the database
-GRANT ALL PRIVILEGES ON DATABASE backend_app TO my_db;
-GRANT USAGE, CREATE ON SCHEMA PUBLIC TO my_db;
+GRANT ALL PRIVILEGES ON DATABASE my_db TO backend_app;
 ```
