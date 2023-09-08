@@ -1,5 +1,8 @@
 # PostgreSQL
 
+## Access database from host server
+SSH to host server. Then use `sudo -u postgres psql` command to access the database console.
+
 ## Create new database and user account
 Access to PostgreSQL console (via `psql` for example). And type the follow commands.
 
